@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #E0D8DE;
+}
+
+.text {
+  height: 100vh;
+  display: flex;
+  color: #E0D8DE;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  z-index: 50;
+}
+
+.circle {
+  left: 20px;
+  top: 200px;
+  position: absolute;
+  background-color: #CFD2B2;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+
+}
